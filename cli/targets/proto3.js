@@ -1,7 +1,7 @@
 "use strict";
 module.exports = proto3_target;
 
-var protobuf = require("protobufjs");
+var protobuf = require("@pgsql/protobufjs");
 
 proto3_target.description = "Protocol Buffers, Version 3";
 
