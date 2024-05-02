@@ -327,7 +327,7 @@ Type.prototype.get = function get(name) {
  */
 Type.prototype.add = function add(object) {
 
-    if (this.get(object.name))
+    if (this.get(object.name) && object.name !== 'constructor')
         throw Error("duplicate name '" + object.name + "' in " + this);
 
     if (object instanceof Field && object.extend === undefined) {
