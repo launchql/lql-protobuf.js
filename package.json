@@ -1,5 +1,6 @@
+
 {
-  "name": "protobufjs",
+  "name": "@pgsql/protobufjs",
   "version": "7.2.6",
   "versionScheme": "~",
   "description": "Protocol Buffers for JavaScript (& TypeScript).",
@@ -27,6 +28,9 @@
   ],
   "main": "index.js",
   "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "bench": "node bench",
     "build": "npm run build:bundle && npm run build:types",

@@ -1,5 +1,5 @@
 {
-  "name": "protobufjs-cli",
+  "name": "@pgsql/protobufjs-cli",
   "description": "Translates between file formats and generates static code as well as TypeScript definitions.",
   "version": "1.1.2",
   "author": "Daniel Wirtz <dcode+protobufjs@dcode.io>",
@@ -17,8 +17,11 @@
     "pbjs": "bin/pbjs",
     "pbts": "bin/pbts"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
-    "protobufjs": "^7.0.0"
+    "@pgsql/protobufjs": "^7.0.0"
   },
   "dependencies": {
     "chalk": "^4.0.0",
@@ -33,6 +36,6 @@
     "uglify-js": "^3.7.7"
   },
   "devDependencies": {
-    "protobufjs": "file:.."
+    "@pgsql/protobufjs": "file:.."
   }
 }
