@@ -3,7 +3,7 @@ module.exports = json_module;
 
 var util = require("../util");
 
-var protobuf = require("@pgsql/protobufjs");
+var protobuf = require("@launchql/protobufjs");
 
 json_module.description = "JSON representation as a module";
 

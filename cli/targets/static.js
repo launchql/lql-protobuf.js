@@ -5,7 +5,7 @@ var UglifyJS   = require("uglify-js"),
     espree     = require("espree"),
     escodegen  = require("escodegen"),
     estraverse = require("estraverse"),
-    protobuf   = require("@pgsql/protobufjs");
+    protobuf   = require("@launchql/protobufjs");
 
 var Type      = protobuf.Type,
     Service   = protobuf.Service,

@@ -3,7 +3,7 @@ module.exports = proto_target;
 
 proto_target.private = true;
 
-var protobuf = require("@pgsql/protobufjs");
+var protobuf = require("@launchql/protobufjs");
 
 var Namespace  = protobuf.Namespace,
     Enum       = protobuf.Enum,

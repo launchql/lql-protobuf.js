@@ -6,7 +6,7 @@ var path     = require("path"),
     pkg      = require("./package.json"),
     util     = require("./util"),
     glob     = require("glob"),
-    protobuf = require("@pgsql/protobufjs");
+    protobuf = require("@launchql/protobufjs");
 
 var targets  = util.requireAll("./targets");
 
